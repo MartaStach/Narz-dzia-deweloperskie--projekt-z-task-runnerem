@@ -2,9 +2,6 @@
 
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
 
-.container {
-}
-
 /*general*/
 .title, .subtitle, .tell-more {
     text-transform: uppercase;
@@ -207,14 +204,10 @@ header button {
     }
 
     .nav-list {
-        border: 1px yellow solid;
-    }
-    .mobile-menu-hamburger {
-        border: 1px solid red;
+        display: inline-flex;
     }
 
-    button .nav-hamburger {
-        border: 1px solid blue;
+    button .nav-hamburger-icon {
         font-size: 20px;
         background-color: none;
         
